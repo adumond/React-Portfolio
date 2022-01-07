@@ -1,3 +1,4 @@
+@import "../../../global.scss";
 .i {
   display: flex;
   height: 100vh;
@@ -70,4 +71,19 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+@media screen and (max-width: 480px) {
+  .i {
+    flex-direction: column;
+  }
+  .i-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .i-desc {
+    display: none;
+  }
 }

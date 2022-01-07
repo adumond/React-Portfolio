@@ -1,8 +1,8 @@
-import "./intro.css";
-import Me from "../../img/myself.png";
-function Intro() {
+import "./home.scss";
+import Me from "../../../img/myself.png";
+function Home() {
   return (
-    <div className="i">
+    <div className="i" id="home">
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2>Hello my name is</h2>
@@ -37,4 +37,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default Home;

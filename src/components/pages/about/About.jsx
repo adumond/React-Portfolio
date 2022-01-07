@@ -1,8 +1,9 @@
-import "./about.css";
-import Compstock from "../../img/compstock.png";
-const about = () => {
+import "./about.scss";
+import Compstock from "../../../img/compstock.png";
+
+export default function About() {
   return (
-    <div className="a">
+    <div className="a" id="about">
       <div className="a-left">
         <div className="a-card bg"> </div>
         <div className="a-card"></div>
@@ -30,11 +31,16 @@ const about = () => {
         </p>
         <div className="a-Compstock">
           <img src={Compstock} alt="" className="a-Compstock-img" />
-          <div className="a-award-texts"></div>
+          <div className="a-Compstock-texts">
+            <h4 className="a-Compstock-title">CompStock</h4>
+            <p className="a-Compstock-desc">
+              My first project was a stock comparison application that utilized
+              the browsers local storage to allow a user to compare stock data
+              from one api call using multiple api endpoints.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   );
-};
-
-export default about;
+}
