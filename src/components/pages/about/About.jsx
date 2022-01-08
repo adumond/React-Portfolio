@@ -1,5 +1,6 @@
 import "./about.scss";
 import Compstock from "../../../img/compstock.png";
+import DuffyandI from "../../../img/Duffy-and-I.webp";
 
 export default function About() {
   return (
@@ -9,8 +10,8 @@ export default function About() {
         <div className="a-card"></div>
         <div className="a-card">
           <img
-            src="https://images.pexels.com/photos/10131778/pexels-photo-10131778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="tree"
+            src={DuffyandI}
+            alt="Duffy and Andrew DuMond Portrait"
             className="a-img"
           />
         </div>

@@ -1,12 +1,13 @@
 import "./home.scss";
-import Me from "../../../img/myself.png";
+import Me from "../../../img/myself.webp";
+
 function Home() {
   return (
     <div className="i" id="home">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2>Hello my name is</h2>
-          <h1>Andrew DuMond</h1>
+          <h2>Welcome to my website!</h2>
+          <h1>I'm Andrew DuMond!</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>

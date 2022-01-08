@@ -3,6 +3,7 @@ import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/Menu.jsx";
 import PortfolioContainer from "./components/PortfolioContainer.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,6 +13,7 @@ function App() {
       <div className="sections">
         <PortfolioContainer menuOpen={menuOpen} setMenuOpen={setMenuOpen} />;
       </div>
+      <Footer />
     </div>
   );
 }

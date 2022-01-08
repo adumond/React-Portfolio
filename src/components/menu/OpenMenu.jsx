@@ -12,7 +12,7 @@ export default function NavTabs({
         </li>
         <li
           onClick={() => {
-            handlePageChange("Home");
+            handlePageChange("Portfolio");
             setMenuOpen(false);
           }}
         >
