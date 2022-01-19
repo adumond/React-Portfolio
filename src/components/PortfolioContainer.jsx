@@ -4,6 +4,7 @@ import About from "./pages/about/About.jsx";
 import Contact from "./pages/contact/Contact";
 import NavTabs from "./menu/OpenMenu.jsx";
 import Portfolio from "./pages/portfolio/Portfolio.jsx";
+import Resume from "./pages/resume/Resume.jsx";
 
 export default function PortfolioContainer({ menuOpen, setMenuOpen }) {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -22,6 +23,9 @@ export default function PortfolioContainer({ menuOpen, setMenuOpen }) {
     }
     if (currentPage === "Portfolio") {
       return <Portfolio />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
     }
   };
 

@@ -29,7 +29,7 @@ export default function NavTabs({
         <li onClick={() => handlePageChange("Contact")}>
           <a>Contact</a>
         </li>
-        <li onClick={() => handlePageChange("Contact")}>
+        <li onClick={() => handlePageChange("Resume")}>
           <a>Resume</a>
         </li>
       </ul>
